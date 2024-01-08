@@ -1,0 +1,46 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude any .tfvars files that are intended to remain private
+*.tfvars
+
+# Ignore override files as they are usually used to override resources locally and do not need to be shared
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do not want to be ignored
+!example_override.tf
+
+# Include override files you do not want to be ignored
+!example_override.tf
+
+# Include workspace files .terraform/*.tfstate and .terraform/*.tfstate.backup
+*.terraform/*
+
+# .tfplan files are Terraform's plan output
+*.tfplan
+
+# .tfout is written to current directory when terraform apply is run
+*.tfout
+
+# .terraformrc is used to configure advanced Terraform options
+.terraformrc
+
+# Ignore CLI configuration files
+cli.tfrc
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+
+# Ignore .terraform.lock.hcl files
+*.terraform.lock.hcl

@@ -1,0 +1,1 @@
+arn:aws:iam::876108243656:role/lambda_role
